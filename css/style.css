@@ -117,31 +117,31 @@ a:active {
     background-color: #c6c6c6;
 }
 
-#subheader {
-    background-color: #BBBBBB;
-    margin: 0px 0px 0px 0px;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 0px 0px 0px 0px;
-}
-#subheader > h3{
-    position: relative;             
-    top: 35%;
-    font-family: 'Merriweather';
-    font-size: 25px;
-    font-style: bold italic;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 400px;
-    letter-spacing: 1px;
+/*BRAINS*/
+
+.brains {
+    height: 85px;
+    background-color: #c6c6c6;
 }
 
-#a{
-    color: #888888;
-    text-decoration: line-through;
+.because_brains {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0px;
 }
-#b{
-    border-bottom: 3px solid yellow;
-    font-style: oblique;
+
+del {
+    color: #8c8c8c;
+}
+
+ins {
+    border-bottom: 3px solid;
+    border-color: #fdf731;
+    text-decoration: none;
 }
 
 .container{

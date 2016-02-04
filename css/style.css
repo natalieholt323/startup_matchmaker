@@ -1,0 +1,209 @@
+* { box-sizing: border-box; }
+
+/*
+Project Name: Startup Matchmaker 
+Author: Natalie Holt
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/* LAYOUT*/
+
+/* Center the container */
+
+.body {
+    background: url("images/coworking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0em 0em 0em 0em;
+}
+
+.header {
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: black;
+    height: 100px;
+    padding top: 30px;
+    border-bottom: 3px solid yellow;
+   
+}
+
+.header h1 {
+    margin-top: 30px;
+    color: yellow;
+    font-family: 'Merriweather';
+    font-size: 30px;
+    font-style: bold;
+    margin-left: 50px;
+}
+
+nav a{
+    color: white;
+    display: inline;
+    margin-top: 70px;
+}
+
+nav ul {
+    float: right;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Oswald';
+    font-style: bold;
+    font-size: 20px;
+    margin: 0 20px 20px ;
+    color: white;
+}
+
+.otherlinks {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    color: white;
+}
+
+#subheader {
+    background-color: #BBBBBB;
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+}
+#subheader > h3{
+    position: relative;             
+    top: 35%;
+    font-family: 'Merriweather';
+    font-size: 25px;
+    font-style: bold italic;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 400px;
+    letter-spacing: 1px;
+}
+
+#a{
+    color: #888888;
+    text-decoration: line-through;
+}
+#b{
+    border-bottom: 3px solid yellow;
+    font-style: oblique;
+}
+
+.container{
+    background-color: #EEEEEE;
+    margin: 50% 0px 0px 0px;
+    width: auto;
+    padding: 20px 0px 20px 0px;
+} 
+.container article{
+    width: 25%;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+}
+.aone{
+    border-right: 1px solid black;
+    margin:0px 0px 0px 130px;
+    padding: 10px 90px 10px 0px;
+    line-height: 60px;
+}
+.atwo{
+    border-right: 1px solid black;
+    margin:0px 0px 0px 50px;
+    padding: 10px 70px 10px 0px;
+    line-height: 60px;
+}
+.athree{
+    margin:0px 0px 0px 50px;
+    line-height: 60px;
+    padding: 0px 80px 10px 0px;
+}
+
+aside{
+    display: inline-block;
+    float: left;
+    background-color: rgba(230, 230, 230, 0.7);
+    box-shadow: 0px 3px 3px #111111;
+    padding: 40px 30px 50px 30px;
+    margin: 100px 100px 0px 800px;
+    line-height: 39px;
+    font-size: 20px;
+    font-family: 'source sans pro'
+}
+
+h1{
+    font-weight: 400;
+    color: #EEEE33;
+    margin: 0px 0px 0px 100px;
+    font-size: 30px;
+}
+h2{
+    margin: 0px;
+    font-family: 'Merriweather';
+    font-size: 30px;
+    font-style: bold;
+}
+
+.container p {
+    line-height: 24px;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+
+button{
+    background-color: #EEEE33;
+    border: 5px solid #EEEE33;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 580;
+    font-size: 20px;
+    padding: 0px 8px;
+    box-shadow: 0px 3px 0px 0px #DDDD22;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 40px;
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+}

@@ -144,86 +144,60 @@ ins {
     text-decoration: none;
 }
 
-.container{
-    background-color: #EEEEEE;
-    margin: 50% 0px 0px 0px;
-    width: auto;
-    padding: 20px 0px 20px 0px;
-} 
-.container article{
-    width: 25%;
-    display: inline-block;
-    font-size: 18px;
-    font-family: 'Source Sans Pro';
-}
-.aone{
-    border-right: 1px solid black;
-    margin:0px 0px 0px 130px;
-    padding: 10px 90px 10px 0px;
-    line-height: 60px;
-}
-.atwo{
-    border-right: 1px solid black;
-    margin:0px 0px 0px 50px;
-    padding: 10px 70px 10px 0px;
-    line-height: 60px;
-}
-.athree{
-    margin:0px 0px 0px 50px;
-    line-height: 60px;
-    padding: 0px 80px 10px 0px;
+/*CENTER BLOCK*/
+
+.center_block {
+    background-image: url(../images/coworking.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover; /*How I got the image to cover the whole width of the browser*/
+    background-repeat: no-repeat;
+    background-position: center center; /*Kept image centered in the moving space*/
 }
 
-aside{
-    display: inline-block;
-    float: left;
-    background-color: rgba(230, 230, 230, 0.7);
-    box-shadow: 0px 3px 3px #111111;
-    padding: 40px 30px 50px 30px;
-    margin: 100px 100px 0px 800px;
-    line-height: 39px;
-    font-size: 20px;
-    font-family: 'source sans pro'
+.profile_box {
+    width: 500px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: right;
+    margin: 35px;
+    box-shadow: 2px 2px 10px black;
 }
 
-h1{
-    font-weight: 400;
-    color: #EEEE33;
-    margin: 0px 0px 0px 100px;
+h3  {
     font-size: 30px;
-}
-h2{
-    margin: 0px;
-    font-family: 'Merriweather';
-    font-size: 30px;
-    font-style: bold;
-}
-
-.container p {
-    line-height: 24px;
-    font-size: 20px;
-    margin: 0px 0px 0px 0px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
     color: black;
+    padding-left: 32px;
+    margin: 50px 0px 20px 20px;
 }
 
-button{
-    background-color: #EEEE33;
-    border: 5px solid #EEEE33;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 580;
+.about_p {
+    width: 460px;
     font-size: 20px;
-    padding: 0px 8px;
-    box-shadow: 0px 3px 0px 0px #DDDD22;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: black;
+    line-height: 28px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+.yellow_button {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    background-color: #fdf731;
     border-radius: 10px;
-    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    min-height: 40px;
-    padding: 10px;
-    font-family: 'Source Sans Pro';
+.create_profile {
     font-size: 20px;
-}
+    font-family: Oswald;
+    font-weight: 700;
+    color: black;
+    padding-top: 20px;
 }
